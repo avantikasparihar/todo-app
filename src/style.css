@@ -1,6 +1,7 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(230, 216, 226);
     padding-top: 2rem;
+    margin: 0;
 }
 
 .todo-list {
@@ -17,7 +18,7 @@ body {
         0 10px 1px -4px rgba(0,0,0,0.15),
         0 20px 0 -10px #eee,
         0 20px 1px -9px rgba(0,0,0,0.15);
-    padding: 30px;
+    padding: 25px;
 }
 
 .todo-item {
@@ -31,6 +32,13 @@ body {
     font-weight: 100;
     font-size: 15px;
     color: #333333;
+    position: relative;
+}
+
+.todo-item p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
 }
 
 input[type=checkbox] {
@@ -38,6 +46,51 @@ input[type=checkbox] {
     font-size: 30px;
 }
 
+form {
+    padding-top: 20px;
+    display: table-column;
+}
+
 input[type=checkbox]:focus {
-    outline: 0;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgb(255, 163, 228);
+}
+
+input[type=text] {
+    border: none;
+    border: 2px solid rgb(124, 115, 121);
+    width: 100%;
+    padding: 9px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 4px;
+    background-color: hotpink;
+    border: none !important;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 36%;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 3px solid rgb(206, 173, 192);
+}
+
+footer {
+    background-color: rgba(255, 163, 228, 0.9);
+    width: 100%;
+    color: rgb(83, 82, 82);
+    text-align: center;
+    display: block;
+    margin-top: 3%;
+    padding-top: 1px;
 }

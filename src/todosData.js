@@ -1,27 +1,17 @@
-const todosData = [
+let todosData = [
     {
-        id: 1,
-        text: "Take out trash",
-        completed: true
-    },
-    {
-        id: 2,
-        text: "Grocery shopping",
+        key: '1',
+        text: "sample task 1 (delete and add your task)",
         completed: false
     },
     {
-        id: 3,
-        text: "Clean the room",
+        key: '2',
+        text: "sample task 2 (delete and add your task)",
         completed: false
     },
     {
-        id: 4,
-        text: "Mow lawn",
-        completed: true
-    },
-    {
-        id: 5,
-        text: "Catch up on Emma",
+        key: '3',
+        text: "sample task 3 (delete and add your task)",
         completed: false
     }
 ]
