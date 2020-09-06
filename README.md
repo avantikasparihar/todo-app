@@ -16,4 +16,6 @@ __Important references__ :
 * React.js tutorial by [freeCodeCamp.org](https://www.youtube.com/watch?v=DLX62G4lc44&t=968s)
 * Deployed on [Netlify](https://app.netlify.com/)
 
-__Deployed link__ : https://avantikasparihar-todo-app.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8180efbe-ac54-4141-ab98-7004e5f836a6/deploy-status)](https://app.netlify.com/sites/avantikasparihar-todo-app/deploys)
+
+__Check it out__ : https://avantikasparihar-todo-app.netlify.app/
